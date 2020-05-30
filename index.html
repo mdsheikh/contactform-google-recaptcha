@@ -5,6 +5,9 @@
         <meta name="author" content="Md Sheikh">
         <meta name="description" content="contactformrecaptcha">
         <meta name="keywords" content="HTML5, CSS, PHP">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    
         
         <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -13,13 +16,15 @@
     <body>
         <div class="contact-form">
         <h2>Contact Us</h2>
-        <form action="index.php" method="POST">
+        <form action="" method="POST">
             <input type="text" name="name" placeholder="Enter name" required>
             <input type="text" name="phone" placeholder="Enter phone" required>
             <input type="email" name="email" placeholder="Enter email" required>
             <textarea name="message" placeholder="Your message" required> </textarea>
+            <div class="g-recaptcha" data-sitekey="6LdmR_4UAAAAAK4M1FFSm6xP7UIRiJ8BmrwKCd-4"></div>
             <input type="submit" name="submit" value="Send Messsage" class="submit-btn">
-            <div> div
+            <div> 
+               
 
             </div>
 
